@@ -25,7 +25,7 @@ Onde VALOR é o novo valor da variável.
 */
  function mudavalor(){
     semvalor = 1000;
-    return 'O valor da variável agora é ' + semvalor;
+    return 'O valor da variável agora é ' + semvalor; 
   }
 
 
