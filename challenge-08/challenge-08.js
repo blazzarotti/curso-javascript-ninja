@@ -65,6 +65,15 @@ function calculator(operador){
             case '-': 
                 resultado = x - y;
                 break;
+            case '*': 
+                resultado = x * y;
+                break;
+            case '/': 
+                resultado = x / y;
+                break;
+            case '%': 
+                resultado = x % y;
+                break;
         }
         return 'Resultado da operação: ' + x + ' ' + operador + ' ' + y + ' = ' + resultado + '.';
     }
